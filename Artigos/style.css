@@ -2,4 +2,115 @@
 
 *{
     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    background-color: lightgreen;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+h2, h3, h4{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+header{
+    background-color: green;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#titulo{
+    font-size: 6em;
+    margin-top: 0;
+    padding: 0;
+}
+nav{
+    background-color: darkgreen;
+}
+nav>a{
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight:500;
+    width: 24vw;
+    text-align: center;
+    height: 1.3em;
+    
+    white-space: nowrap;
+}
+nav>a:hover{
+    background-color: black;
+    text-decoration: none;
+    
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+p{
+    padding: 10px;
+}
+
+/* asside related content*/
+.ass{
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+p.ass{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul.ass{
+    margin-top: 0;
+}
+
+a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+li{
+    padding-bottom: 12px;
+}
+
+a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+img{
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media only screen and (min-width: 750px){
+    *{
+        
+    }
+    img{
+        width: 80%;
+        min-width: 690px;
+    }
+
 }
