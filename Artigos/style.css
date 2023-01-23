@@ -25,34 +25,46 @@ h2, h3, h4{
 }
 header{
     background-color: green;
-    margin: 0px;
-    padding: 0px;
     color: white;
+    
 }
-#titulo{
-    font-size: 6em;
-    margin-top: 0;
-    padding: 0;
+header>h1{
+    font-size: 6em; 
 }
-nav{
+
+.nav{
     background-color: darkgreen;
+    height: 1.6em;
+    width: 100vw;
 }
-nav>a{
-    color: white;
+
+.nav>li{
+    height: 1em;
     display: inline-block;
+    width: 19vw;
+    
+}
+.nav>a{
+    color: white;
     font-size: 1.2em;
     font-weight:500;
-    width: 24vw;
     text-align: center;
-    height: 1.3em;
-    
+    height: 1em;
     white-space: nowrap;
+    text-decoration: none;
+
 }
-nav>a:hover{
-    background-color: black;
+span{
+    width: auto;
+    display: inline-block;
+
+}
+.nav>a:hover{
+    background-color:white;
     text-decoration: none;
     
 }
+
 
 main{
     background-color: white;
@@ -62,9 +74,15 @@ main{
     margin-left: auto;
 }
 
-
 p{
     padding: 10px;
+}
+
+aside{
+    max-width: 800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* asside related content*/
@@ -82,13 +100,14 @@ ul.ass{
     margin-top: 0;
 }
 
-a{
+.ass>a{
     color: rgb(46, 46, 46);
     text-decoration: none;
 }
 
-li{
+.ass>li{
     padding-bottom: 12px;
+    
 }
 
 a:hover{
@@ -103,6 +122,18 @@ img{
     margin-left: auto;
 }
 
+footer{
+    background-color: darkgreen;
+    margin: 0;
+    padding: 10px;
+    
+}
+footer>p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
 
 @media only screen and (min-width: 750px){
     *{
@@ -112,5 +143,7 @@ img{
         width: 80%;
         min-width: 690px;
     }
+    
 
 }
+
