@@ -48,8 +48,6 @@ header{
     background-color: darkgreen;
     height: 1.85em;
     width: 100%;
-    position: sticky;
-    top: 0;
     padding-left: 30;
 }
 ul.nav{
@@ -84,7 +82,54 @@ li.nav{
 #inicio{
     width: 16vw;
     padding-left: 30px;
+ 
 }
+
+
+div.stk{
+    background-color: darkgreen;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+menu{
+    margin: 0;
+    padding: 0;
+}
+#menus{
+    display: none;
+}
+img.stk{
+    height: 40px;
+    width: 36px;
+    position: relative;
+    top: 5px;
+    
+}
+h1.stk{
+    font-family: Unbounded, sans-serif;
+    display: inline-block;
+    color: white;
+    font-size: 2.3em;
+}
+#menu{
+    color: white;
+    font-size: 2.3em;
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+#inistk{
+    
+}
+
+
 main{
     background-color: white;
     max-width: 800px;
@@ -192,9 +237,7 @@ h2.blo{
 /* Seção 6: Configurações de equipe*/
 
 @media only screen and (min-width: 750px){
-    *{
-        
-    }
+   
     .imagens{
         width: 80%;
         min-width: 690px;
