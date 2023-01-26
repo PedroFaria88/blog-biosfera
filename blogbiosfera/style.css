@@ -21,6 +21,7 @@ header{
     color: white;
     margin: 0;
     width: 100%;
+    
 }
 #logo{
     display: inline-block;
@@ -49,6 +50,7 @@ header{
     height: 1.85em;
     width: 100%;
     padding-left: 30;
+    z-index: 2;
 }
 ul.nav{
     padding: 0ch;
@@ -85,7 +87,6 @@ li.nav{
  
 }
 
-
 div.stk{
     background-color: darkgreen;
     width: 100%;
@@ -94,6 +95,7 @@ div.stk{
     top: 0;
     width: 100%;
     text-align: center;
+    
     
 }
 menu{
