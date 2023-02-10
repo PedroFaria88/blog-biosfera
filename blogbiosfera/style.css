@@ -128,9 +128,26 @@ h1.stk{
 }
 
 #inistk{
-    
+    width: 11vw;
+    padding-left: 0px;
+    position: relative;
+    right: 25px;
 }
 
+#blogstk{
+    width: 15vw;
+    position: relative;
+    right: 20px;
+}
+#ntstk{
+    position: relative;
+    right: 20px;
+}
+
+#eqpstk{
+    position: relative;
+    right: 15px;
+}
 
 main{
     background-color: white;
@@ -266,6 +283,11 @@ h2.blo{
     #inicio{
         width: 16vw;
         padding-left: 50px;
+    }
+
+    #inistk{
+        position: relative;
+        left: 5px;
     }
 }
 
