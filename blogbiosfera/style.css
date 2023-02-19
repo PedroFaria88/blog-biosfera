@@ -10,19 +10,20 @@
 
 html{
     background-color: lightgreen;
-
 }
+
 body{
     margin: 0px;
     padding: 0px;
 }
+
 header{
     background-color: green;
     color: white;
     margin: 0;
     width: 100%;
-    
 }
+
 #logo{
     display: inline-block;
     height: 22vw;
@@ -33,6 +34,7 @@ header{
     position: relative;
     top: 10px
 }
+
 #titulo{
     font-family: Unbounded, sans-serif;
     font-size: 10vw; 
@@ -52,14 +54,17 @@ header{
     padding-left: 30;
     z-index: 2;
 }
+
 ul.nav{
     padding: 0ch;
 }
+
 li.nav{
     display: inline-block;
     width: 20vw;
-    
+
 }
+
 .nav>a{
     color: white;
     font-family: Unbounded, sans-serif;
@@ -70,21 +75,21 @@ li.nav{
     white-space: nowrap;
     text-decoration: none;
     border-radius: 5px;
-
 }
+
 .nav>a:hover{
     color: darkgreen;
     background-color:rgb(247, 247, 247);
     text-decoration: none;
-    
 }
+
 #blog{
     width: 15vw;
 }
+
 #inicio{
     width: 16vw;
     padding-left: 30px;
- 
 }
 
 div.stk{
@@ -95,29 +100,31 @@ div.stk{
     top: 0;
     width: 100%;
     text-align: center;
-    
-    
 }
+
 menu{
     margin: 0;
     padding: 0;
 }
+
 #menus{
     display: none;
 }
+
 img.stk{
     height: 40px;
     width: 36px;
     position: relative;
     top: 5px;
-    
 }
+
 h1.stk{
     font-family: Unbounded, sans-serif;
     display: inline-block;
     color: white;
     font-size: 2.3em;
 }
+
 #menu{
     color: white;
     font-size: 2.3em;
@@ -139,6 +146,7 @@ h1.stk{
     position: relative;
     right: 20px;
 }
+
 #ntstk{
     position: relative;
     right: 20px;
@@ -160,21 +168,25 @@ main{
     border-radius: 20px;
     padding: 15px;
 }
+
 footer{
     background-color: darkgreen;
     margin: 0;
     padding: 10px;
 }
+
 footer>p{
     margin: 0;
     padding: 0;
     text-align: center;
     color: white;
 }
+
 footer>p>a{
     color: white;
     text-decoration: none;
 }
+
 footer>p>a:hover{
     text-decoration: underline;
     color: #a5eca5
@@ -187,14 +199,17 @@ h1.art{
     margin: 0;
     padding: 20px;
 }
+
 h2, h3.art{
     text-align: center;
     margin: 0;
     padding: 10px;
 }
+
 p.art{
     padding: 10px;
 }
+
 aside{
     max-width: 830px;
     display: block;
@@ -202,35 +217,42 @@ aside{
     margin-left: auto;
     margin-bottom: 20px;
 }
+
 .ass{
     background-color: lightgrey;
     border-radius: 15px;
 }
+
 h4.ass{
     text-align: center;
     margin: 0;
     padding: 10px;
 }
+
 p.ass{
     margin-top: 0;
     margin-bottom: 0;
     padding: 10px;
 }
+
 ul.ass{
     margin-top: 0;
 }
+
 a.ass{
     color: rgb(46, 46, 46);
     text-decoration: none;
 }
+
 li.ass{
     padding-bottom: 12px;
-    
 }
+
 .ass>a:hover{
     color: darkgreen;
     text-decoration: underline;
 }
+
 .imagens{
     width: 95%;
     display: block;
@@ -239,6 +261,7 @@ li.ass{
 }
 
 /* Seção 3: Configurações do inicio*/
+/*work in progreess*/
 
 /* Seção 4: Configurações do blog*/
 
@@ -252,8 +275,11 @@ h2.blo{
 }
 
 /*Seção 5: Configurações da página notícias*/
+/*work in progreess*/
 
 /* Seção 6: Configurações de equipe*/
+
+/* Seção 7: Media Queries*/
 
 @media only screen and (min-width: 750px){
    
@@ -261,10 +287,12 @@ h2.blo{
         width: 80%;
         min-width: 690px;
     }
+
     #titulo{
         display: none;
        
     }
+
     #titulo2{
         font-family: Unbounded, sans-serif;
         font-size: 7.5vw; 
@@ -272,14 +300,16 @@ h2.blo{
         position: relative;
         bottom: 50px;
     }
+
     .nav{
         height: 2em;
     }
+
     .nav>a{
         font-size: 1.5em;
         padding-bottom: 2.5px;
-        
     }
+
     #inicio{
         width: 16vw;
         padding-left: 50px;
@@ -292,15 +322,17 @@ h2.blo{
 }
 
 @media only screen and (max-width: 600px){
+
     .nav{
         height: 1.71em;
         padding-left: 8px;
     }
+
     .nav>a{
         font-size: 1.2em;
         padding-bottom: 2.5px;
-        
     }
+
     #blog{
         width: 14vw;
     }
