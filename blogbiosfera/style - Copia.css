@@ -1,0 +1,86 @@
+
+
+#blog{
+    width: 15vw;
+}
+
+#inicio{
+    width: 16vw;
+    padding-left: 30px;
+}
+
+#inistk{
+    width: 11vw;
+    padding-left: 0px;
+    position: relative;
+    right: 25px;
+}
+
+#blogstk{
+    width: 15vw;
+    position: relative;
+    right: 20px;
+}
+
+#ntstk{
+    position: relative;
+    right: 20px;
+}
+
+#eqpstk{
+    position: relative;
+    right: 15px;
+}
+
+
+
+
+
+
+/* Seção 3: Configurações do inicio*/
+/*work in progreess*/
+
+/* Seção 4: Configurações do blog*/
+
+h2.blo{
+    display: inline-block;
+}
+.thumb{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+
+/*Seção 5: Configurações da página notícias*/
+/*work in progreess*/
+
+/* Seção 6: Configurações de equipe*/
+
+/* Seção 7: Media Queries*/
+
+@media only screen and (min-width: 750px){
+   
+
+
+    #inicio{
+        width: 16vw;
+        padding-left: 50px;
+    }
+
+    #inistk{
+        position: relative;
+        left: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+   
+    #blog{
+        width: 14vw;
+    }
+    #inicio{
+        width: 14vw;
+        padding-left: 15px;
+    }
+}
