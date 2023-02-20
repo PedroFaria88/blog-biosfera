@@ -1,10 +1,10 @@
 
 
 function clickMenu(){
-    if(menu2li.style.display == 'block'){
-        menu2li.style.display = 'none'
+    if(menu2ul.style.display == 'block'){
+        menu2ul.style.display = 'none'
     } else {
-        menu2li.style.display = 'block'
+        menu2ul.style.display = 'block'
     }
 }
 
