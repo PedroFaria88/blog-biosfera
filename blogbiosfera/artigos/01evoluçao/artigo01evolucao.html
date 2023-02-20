@@ -5,47 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O que é a teoria da evolução?</title>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="script.js"></script>
     
 </head>
 <body>
 
     <header>
-        <img src="../../besourob.png" alt="besouro" id="logo">
+        <img src="../../besourob.png" alt="besouro" id="logo1">
         <h1 id="titulo">Blog <br> Biosfera</h1>
         <h1 id="titulo2"> &nbsp; Blog Biosfera</h1>
-        <nav>
-            <ul class="nav">
-                <ul class="nav">
-                    <li class="nav" id="inicio"><a href="../../inicio/inicio.html">Início</a></li>
-                    <li class="nav" id="blog"><a href="../../blog/blog.html">Blog</a></li>
-                    <li class="nav"><a href="../../noticias/noticias.html">Notícias</a></li>
-                    <li class="nav"><a href="../../equipe/equipe.html">Nossa Equipe</a></li>
-                </ul>
-            </ul>
-        </nav>
-        
-        
     </header>
-    <div class="stk">
-        <i id='menu' class="fa fa-bars" class="w3-xxxlarge" class="stk" onclick="clickMenu()"></i>
-        <h1 class="stk">Blog Biosfera</h1>
-        <img class="stk" src="../../besourob.png" alt="besouro">
 
-        
-            <menu id="menus">
-                <ul class="nav" class="stk">
-                    <li class="nav" class="stk" id="inistk"><a href="../../inicio/inicio.html">Início</a></li>
-                    <li class="nav" class="stk" id="blogstk"><a href="../../blog/blog.html">Blog</a></li>
-                    <li class="nav" class="stk" id="ntstk"><a href="../../noticias/noticias.html">Notícias</a></li>
-                    <li class="nav" class="stk" id="eqpstk"><a href="../../equipe/equipe.html">Nossa Equipe</a></li>
+    <nav>
+
+        <div class="divmenu1">
+            <ul class="menuul">
+                <li class="menuli inicio"  ><a href="../../inicio/inicio.html">Início</a></li>
+                <li class="menuli blog" ><a href="../../blog/blog.html">Blog</a></li>
+                <li class="menuli noticias" ><a href="../../noticias/noticias.html">Notícias</a></li>
+                <li class="menuli equipe" ><a href="../../equipe/equipe.html">Nossa Equipe</a></li>
+            </ul>
+        </div>
+
+        <div class="divmenu2">
+            <i id="burger" class="fa fa-bars" class="w3-xxxlarge" onclick="clickMenu()"></i>
+            <h1 class="menu2">Blog Biosfera</h1>
+            <img class="menu2" src="../../besourob.png" alt="besouro">  
+                
+                <ul id="menu2ul" class="menuul">
+                    <li class="menuli inicio" ><a href="../../inicio/inicio.html">Início</a></li>
+                    <li class="menuli blog" ><a href="../../blog/blog.html">Blog</a></li>
+                    <li class="menuli noticias"  ><a href="../../noticias/noticias.html">Notícias</a></li>
+                    <li class="menuli equipe" ><a href="../../equipe/equipe.html">Nossa Equipe</a></li>
                 </ul>
-            </menu>
-        
-    </div>
-    
-    
+                
+        </div>
+
+    </nav>
 
     <main>
         <h1 class="art">O que é a teoria da evolução?</h1>
@@ -99,8 +97,8 @@
 
     
     <aside class="ass">
-        <h4 class="ass" class="art">Mas será que evolução é verdade mesmo? Não é só uma teoria?</h4>
-        <p class="ass" class="art">A teoria da evolução passou por muitas mudanças desde que foi proposta pela primeira vez, entretanto, ela se mantém amplamente aceita. Esse artigo serve como uma breve introdução, possivelmente trazendo muitas dúvidas no leitor. Para nossa sorte, essas mesmas dúvidas estão em pauta há décadas e possuímos respostas para a maioria delas. Algumas das quais o leitor pode encontrar em nossos outros artigos:
+        <h4 class="ass" >Mas será que evolução é verdade mesmo? Não é só uma teoria?</h4>
+        <p class="ass" >A teoria da evolução passou por muitas mudanças desde que foi proposta pela primeira vez, entretanto, ela se mantém amplamente aceita. Esse artigo serve como uma breve introdução, possivelmente trazendo muitas dúvidas no leitor. Para nossa sorte, essas mesmas dúvidas estão em pauta há décadas e possuímos respostas para a maioria delas. Algumas das quais o leitor pode encontrar em nossos outros artigos:
         </p>
         <ul class="ass">
             <li class="ass"><a href="../artigoindisponivel.html" class="ass">Por que a evolução ainda é chamada de teoria?</a></li>
@@ -113,15 +111,6 @@
     <footer>
         <p>Site e artigo por <a href="https://github.com/PedroFaria88">Pedro Faria</a></p>
     </footer>
-    
-    <script>
-        function clickMenu(){
-            if(menus.style.display == 'block'){
-                menus.style.display = 'none'
-            } else {
-                menus.style.display = 'block'
-            }
-        }
-    </script>
+   
 </body>
 </html>
