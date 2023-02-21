@@ -297,6 +297,24 @@ footer>p>a:hover{
         padding-left: 2vw;
     }
 
-
 }
 
+@media only screen and (max-width: 420px){
+
+    h1.menu2{
+        font-size: 8.5vw;
+    }
+
+    #burger{
+        
+        font-size: 8.5vw;
+       
+    }
+
+    img.menu2{
+        height: 8.5vw;
+        width: 8vw;
+    
+    }
+
+}
