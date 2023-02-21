@@ -68,6 +68,8 @@ nav[stuck]> .divmenu2{
     background-image: linear-gradient(to right, rgb(0, 92, 0) , rgb(1, 121, 1));;
     width: 100%;
     padding-left: 30;
+    box-shadow: 2px 2px 4px rgb(48, 47, 47);
+    
 }
 
 .divmenu2{
@@ -79,6 +81,7 @@ nav[stuck]> .divmenu2{
     text-align: center;
     display: none;
     text-shadow: 3px 3px 6px rgb(56, 56, 56);
+    box-shadow: 2px 2px 4px rgb(48, 47, 47);
 }
 
 
@@ -164,7 +167,7 @@ main{
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 15px;
-    box-shadow: 2px 2px 5px rgb(70, 69, 69);
+    box-shadow: 2px 2px 4px rgb(70, 69, 69);
 }
 
 
@@ -203,7 +206,7 @@ aside{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    box-shadow: 2px 2px 5px rgb(70, 69, 69);
+    box-shadow: 2px 2px 4px rgb(70, 69, 69);
 }
 
 .ass{
@@ -246,6 +249,7 @@ footer{
     background-color: darkgreen;
     margin: 0;
     padding: 10px;
+    
 }
 
 footer>p{
