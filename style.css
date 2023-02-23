@@ -1,25 +1,24 @@
 @charset "UFT-8";
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 
+/* Seção 1: configurações gerais */
+
 *{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
 html{
-    background-image: linear-gradient(to right , rgb(131, 238, 131), rgb(146, 238, 146) );;
-    
+    background-image: linear-gradient(to right , rgb(116, 238, 116), rgb(171, 230, 171) );;
 }
 
 body{
     margin: 0px;
     padding: 0px;
-    
-    
 }
 
 header{
-    background-image: linear-gradient(to right, rgb(0, 114, 0) , rgb(0, 139, 0));;
+    background-image: linear-gradient(to bottom right, rgb(1, 90, 1) , rgb(2, 153, 2), rgb(1, 90, 1));;
     color: white;
     margin: 0;
     width: 100%;
@@ -43,7 +42,6 @@ header{
     position: relative;
     bottom: 10px;
     text-shadow: 5px 5px 10px rgb(56, 56, 56);
-    
 }
 
 #titulo2{
@@ -65,15 +63,14 @@ nav[stuck]> .divmenu2{
 }
 
 .divmenu1{
-    background-image: linear-gradient(to right, rgb(0, 92, 0) , rgb(1, 121, 1));;
+    background-image: linear-gradient(to right, rgb(0, 82, 0), rgb(1, 107, 1) , rgb(1, 138, 1), rgb(0, 82, 0));
     width: 100%;
     padding-left: 30;
     box-shadow: 2px 2px 4px rgb(48, 47, 47);
-    
 }
 
 .divmenu2{
-    background-image: linear-gradient(to right, rgb(0, 92, 0) , rgb(1, 121, 1));;
+    background-image: linear-gradient(to right, rgb(0, 82, 0), rgb(1, 107, 1) , rgb(1, 138, 1), rgb(0, 82, 0));
     width: 100%;
     padding-left: 30;
     padding-bottom: 10px;
@@ -88,7 +85,6 @@ nav[stuck]> .divmenu2{
 #menu2ul{
     display: none;
     padding-top: 10px;
-    
 }
 
 ul.menuul{
@@ -170,7 +166,6 @@ main{
     box-shadow: 2px 2px 4px rgb(70, 69, 69);
 }
 
-
 .imagens{
     width: 95%;
     display: block;
@@ -207,10 +202,12 @@ aside{
     margin-left: auto;
     margin-bottom: 20px;
     box-shadow: 2px 2px 4px rgb(70, 69, 69);
+    background-image: linear-gradient(to right, rgb(214, 214, 214) , rgb(194, 194, 194) 
+     );
 }
 
 .ass{
-    background-color: lightgrey;
+    
     border-radius: 15px;
 }
 
@@ -249,7 +246,6 @@ footer{
     background-color: darkgreen;
     margin: 0;
     padding: 10px;
-    
 }
 
 footer>p{
@@ -269,12 +265,10 @@ footer>p>a:hover{
     color: #a5eca5
 }
 
-
+/* Seção 3: Media Queries*/
 
 @media only screen and (min-width: 750px){
    
-
-    
     .imagens{
         width: 80%;
         min-width: 690px;
@@ -282,7 +276,6 @@ footer>p>a:hover{
 
     #titulo{
         display: none;
-       
     }
 
     #titulo2{
@@ -310,15 +303,12 @@ footer>p>a:hover{
     }
 
     #burger{
-        
         font-size: 8.5vw;
-       
     }
 
     img.menu2{
         height: 8.5vw;
         width: 8vw;
-    
     }
 
 }
